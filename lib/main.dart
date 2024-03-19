@@ -3,7 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:untitled1/text_editor.dart';
 
-String git = 'rekkklp';
+String git = 'rekkllklp';
 
 class lll extends StatefulWidget {
   const lll({super.key});
