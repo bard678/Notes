@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:untitled1/text_editor.dart';
-String git='recp';
+String git='reclp';
 class lll extends StatefulWidget {
   const lll({super.key});
 
