@@ -4,6 +4,24 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:untitled1/text_editor.dart';
+<<<<<<< HEAD
+=======
+String git='rep';
+class lll extends StatefulWidget {
+  const lll({super.key});
+
+  @override
+  State<lll> createState() => _lllState();
+}
+
+class _lllState extends State<lll> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+
+>>>>>>> 19aaa4e (hello)
 class ThemeGo extends ChangeNotifier{
   ThemeData _themeData=ThemeData.light();
   
@@ -87,7 +105,11 @@ int count=0;
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child:IconButton(onPressed: (){
+<<<<<<< HEAD
                   List<Widget> widgett=[];
+=======
+
+>>>>>>> 19aaa4e (hello)
                  setState(() {
                    if(dark) {
                   Provider.of<ThemeGo>(context,listen: false).setTheme(ThemeData.light());
@@ -116,7 +138,11 @@ int count=0;
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child:IconButton(onPressed: (){
+<<<<<<< HEAD
                   List<Widget> widgett=[];
+=======
+
+>>>>>>> 19aaa4e (hello)
 
                   setState(() {
                     listtext.add("");
@@ -164,7 +190,11 @@ int count=0;
 
                             borderRadius: BorderRadius.circular(20)
                         ),
+<<<<<<< HEAD
                         width: MediaQuery.of(context).size.width-40,height: 90,child:Center(child:preftext!=null? Text(preftext!):Text("Enter a text"),),),
+=======
+                        width: MediaQuery.of(context).size.width-40,height: 90,child:Center(child:preftext!=null? Text(preftext):Text("Enter a text"),),),
+>>>>>>> 19aaa4e (hello)
                     )),
                   );
               
